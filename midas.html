@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Midas &mdash; SPIDAL 1.0 documentation</title>
+    <title>MIDAS &mdash; SPIDAL 1.0 documentation</title>
     
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -94,11 +94,42 @@
 <li class="toctree-l2"><a class="reference internal" href="meetings.html#presenter-david-crandall-indiana-university-03-25-2016">Presenter: David Crandall, Indiana University, 03/25/2016</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="spidal.html">Spidal</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Midas</a></li>
-<li class="toctree-l1"><a class="reference internal" href="research.html">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="presentations.html">Presentations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bib.html">Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spidal.html">Spidal</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="spidal.html#architecture">Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spidal.html#spidal-kernels">Spidal Kernels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spidal.html#spidal-communities">SPIDAL Communities</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">MIDAS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#midas-architecture">MIDAS Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#identifying-hpc-abds-software-stack">Identifying HPC-ABDS Software Stack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#batch-parallel-programming">Batch Parallel Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#streaming-data">Streaming Data</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="research.html">Research</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="research.html#computational-biophysics-research-group">COMPUTATIONAL BIOPHYSICS RESEARCH GROUP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="research.html#center-for-remote-sensing-of-ice-sheets">CENTER FOR REMOTE SENSING OF ICE SHEETS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="research.html#harp-a-hadoop-plug-in">HARP: A HADOOP PLUG-IN</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="software.html#cloudmesh-client">CLOUDMESH CLIENT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software.html#spatial-data-analysis-library">SPATIAL DATA ANALYSIS LIBRARY</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software.html#midas">MIDAS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software.html#cinet-a-cyber-infrastructure-for-network-science">CINET: A CYBER INFRASTRUCTURE FOR NETWORK SCIENCE</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bib.html">Publications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#recent">Recent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#rutgers-university">Rutgers University</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#stony-brook-university-and-emory-university">Stony Brook University and Emory University</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#indiana-university">Indiana University</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#university-of-kansas">University of Kansas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#arizona-state-university">Arizona State University</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#virginia-polytechnic-institute-and-state-university">Virginia Polytechnic Institute and State University</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -112,7 +143,13 @@
   <ul class="dropdown-menu localtoc"
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Midas</a></li>
+<li><a class="reference internal" href="#">MIDAS</a><ul>
+<li><a class="reference internal" href="#midas-architecture">MIDAS Architecture</a></li>
+<li><a class="reference internal" href="#identifying-hpc-abds-software-stack">Identifying HPC-ABDS Software Stack</a></li>
+<li><a class="reference internal" href="#batch-parallel-programming">Batch Parallel Programming</a></li>
+<li><a class="reference internal" href="#streaming-data">Streaming Data</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 </li>
@@ -188,11 +225,42 @@
 <li class="toctree-l2"><a class="reference internal" href="meetings.html#presenter-david-crandall-indiana-university-03-25-2016">Presenter: David Crandall, Indiana University, 03/25/2016</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="spidal.html">Spidal</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Midas</a></li>
-<li class="toctree-l1"><a class="reference internal" href="research.html">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="presentations.html">Presentations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bib.html">Publications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spidal.html">Spidal</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="spidal.html#architecture">Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spidal.html#spidal-kernels">Spidal Kernels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spidal.html#spidal-communities">SPIDAL Communities</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">MIDAS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#midas-architecture">MIDAS Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#identifying-hpc-abds-software-stack">Identifying HPC-ABDS Software Stack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#batch-parallel-programming">Batch Parallel Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#streaming-data">Streaming Data</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="research.html">Research</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="research.html#computational-biophysics-research-group">COMPUTATIONAL BIOPHYSICS RESEARCH GROUP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="research.html#center-for-remote-sensing-of-ice-sheets">CENTER FOR REMOTE SENSING OF ICE SHEETS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="research.html#harp-a-hadoop-plug-in">HARP: A HADOOP PLUG-IN</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="software.html#cloudmesh-client">CLOUDMESH CLIENT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software.html#spatial-data-analysis-library">SPATIAL DATA ANALYSIS LIBRARY</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software.html#midas">MIDAS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software.html#cinet-a-cyber-infrastructure-for-network-science">CINET: A CYBER INFRASTRUCTURE FOR NETWORK SCIENCE</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bib.html">Publications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#recent">Recent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#rutgers-university">Rutgers University</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#stony-brook-university-and-emory-university">Stony Brook University and Emory University</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#indiana-university">Indiana University</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#university-of-kansas">University of Kansas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#arizona-state-university">Arizona State University</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bib.html#virginia-polytechnic-institute-and-state-university">Virginia Polytechnic Institute and State University</a></li>
+</ul>
+</li>
 </ul>
 </ul>
 <form action="search.html" method="get">
@@ -207,7 +275,84 @@
     <div class="col-md-9 content">
       
   <div class="section" id="midas">
-<h1>Midas<a class="headerlink" href="#midas" title="Permalink to this headline">¶</a></h1>
+<h1>MIDAS<a class="headerlink" href="#midas" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="midas-architecture">
+<h2>MIDAS Architecture<a class="headerlink" href="#midas-architecture" title="Permalink to this headline">¶</a></h2>
+<p>It is our goal to study major software components relevant for Big Data
+from both HPC and commodity Big Data processing. At 10 zettabytes, the
+total commodity Big Data is far larger than science data (with LHC
+analysis at “just” 100 petabytes) and has motivated the development of
+much high quality software which we collectively term ABDS – Apache Big
+Data Stack. As HPC has a leadership position in some areas – especially
+those associated with performance – we suggest a need to merge software
+systems giving. The result is what we call HPC-ABDS software stack,
+which currently has over 300 entries arranged into 21 “layers” with
+those where HPC and ABDS have important integration issues identified.
+The recent announcements [need a citation] that HPC is essential for
+deep learning have supported these ideas. Interoperation of cloud,
+supercomputer, multicore, GPU, and Xeon Phi systems is clearly
+important.</p>
+<p><img alt="Big Data Stack HPC-ABDS" src="http://spidal.org/midas/BSAT.png" /></p>
+</div>
+<div class="section" id="identifying-hpc-abds-software-stack">
+<h2>Identifying HPC-ABDS Software Stack<a class="headerlink" href="#identifying-hpc-abds-software-stack" title="Permalink to this headline">¶</a></h2>
+<p>The image below gives a comparison of typical cloud and supercomputer
+software layered stacks.</p>
+<p><img alt="HPC-ABDS Cloud/Supercomputer Stacks" src="http://spidal.org/midas/integrate.png" /></p>
+<ul class="simple">
+<li>Research paper <a class="reference external" href="http://hpc-abds.org/kaleidoscope/">here</a>.</li>
+<li>Research paper
+<a class="reference external" href="http://grids.ucs.indiana.edu/ptliupages/publications/nist-hpc-abds.pdf">here</a>.</li>
+<li>Research paper <a class="reference external" href="http://arxiv.org/abs/1403.1528">here</a>.</li>
+<li>Research paper
+<a class="reference external" href="http://www.exascale.org/bdec/sites/www.exascale.org.bdec/files/whitepapers/fox.pdf">here</a>.</li>
+<li>Research paper
+<a class="reference external" href="http://dsc.soic.indiana.edu/publications/HPC-ABDSDescribedv2.pdf">here</a>.</li>
+</ul>
+<p>HPC-ABDS Further/Ongoing work:</p>
+<ol class="arabic simple">
+<li>Continue development of online Class</li>
+<li>Develop a set of examples of HPC-ABDS for benchmark and tutorial
+purposes. Specify with DevOps technologies (Ansible, Heat)</li>
+<li>Relate DevOps specified examples to NIST Big Data Reference
+Architecture (Interest of NIST Public working group)</li>
+</ol>
+</div>
+<div class="section" id="batch-parallel-programming">
+<h2>Batch Parallel Programming<a class="headerlink" href="#batch-parallel-programming" title="Permalink to this headline">¶</a></h2>
+<p>This section covers the integration of Hadoop into the Pilot Jobs
+framework (<a class="reference external" href="http://arxiv.org/abs/1501.05041">link</a>) more details of
+which can be found in the <a class="reference external" href="tools.html">Software Tools</a> page, and the
+Harp scientific (high performance) plug-in for Hadoop which benchmarks
+GML5
+(<a class="reference external" href="http://grids.ucs.indiana.edu/ptliupages/publications/HarpQiuZhang.pdf">link</a>).</p>
+</div>
+<div class="section" id="streaming-data">
+<h2>Streaming Data<a class="headerlink" href="#streaming-data" title="Permalink to this headline">¶</a></h2>
+<p>The following diagram illustrates the Apache Storm method of processing
+data from the Internet of Things (IoT).</p>
+<p><img alt="Big Data Stack HPC-ABDS" src="http://spidal.org/midas/BSAT.png" /></p>
+<ul class="simple">
+<li>Research paper
+<a class="reference external" href="http://dsc.soic.indiana.edu/publications/iotcloud_hindavi_two_column_final_2.docx">here</a>.</li>
+<li>Research paper
+<a class="reference external" href="http://dsc.soic.indiana.edu/publications/Xiaoming%20Gao%20Thesis%20v5.pdf%20">here</a>.</li>
+<li>Research paper
+<a class="reference external" href="http://dsc.soic.indiana.edu/publications/intelligent_iot_cloud_controller.pdf">here</a>.</li>
+<li>Research paper
+<a class="reference external" href="http://dsc.soic.indiana.edu/publications/Parallel%20Clustering%20of%20High-Dimensional%20Social%20Media%20Data%20Streams_v11.pdf%20">here</a>.</li>
+</ul>
+<p>MIDAS Ongoing Work</p>
+<ol class="arabic simple">
+<li>Apply Storm-RabbitMQ to Robotics</li>
+<li>Improve Storm to add quality of service and support of parallel
+computing</li>
+<li>Extend Tweet clustering to use Harp</li>
+<li>Look at further examples of Harp</li>
+<li>Integrate Pilot Jobs with Streaming and Harp</li>
+<li>Support GPU and Xeon Phi</li>
+</ol>
+</div>
 </div>
 
 
