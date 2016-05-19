@@ -30,7 +30,7 @@ different views and their corresponding facets.
 .. figure:: http://spidal.org/x-y-ogre.png
    :alt: Spidal Dimesnsions
 
-   Spidal Dimesnsions
+   Spidal Dimensions
 
 
 ----------------------------------------------------------------------
