@@ -70,7 +70,7 @@ Presenter: John Paden, University of Kansas, 03/25/2016
 -------------------------------------------------------
 
 PowerPoint slides
-`here <http://spidal.org/CReSIS-POLAR_spidal_20160325.pptx>`__
+`here <http://spidal.org/3d_surface_extraction_update.pptx>`__
 
 video: http://spidal.org/SPIDAL\_BiWeekly\_Call\_20160205.mp4
 
