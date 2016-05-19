@@ -3,6 +3,8 @@ Members
 
 Geoffrey Fox
 ------------
+.. figure:: http://spidal.org/Images/fox.jpg
+   :alt: picture geoffrey
 
 Geoffrey Fox received a Ph.D. in Theoretical Physics from Cambridge
 University and is now professor of Informatics and Computing, and
@@ -17,9 +19,11 @@ the capabilities of Minority Serving Institutions.
 
 Shantenu Jha
 ------------
+.. figure:: http://spidal.org/Images/jha.jpg
+   :alt: picture shantenu
 
 Prof. Shantenu Jha is an Associate Professor at Rutgers University, a
-member ofthe Graduate Faculty in the School of Informatics at the
+member of the Graduate Faculty in the School of Informatics at the
 University of Edinburgh (UK), and a Visiting Scientist at University
 College London. Before moving to Rutgers, he was the lead for
 Cyberinfrastructure Research and Development at the CCT at Louisiana
@@ -54,6 +58,8 @@ the areas of cloud computing.
 
 Judy Qiu
 --------
+.. figure:: http://spidal.org/Images/xqiu.jpg
+   :alt: picture judy
 
 Dr. Qiu is an assistant professor of Computer Science at Indiana
 University. She graduated from Syracuse University with an Outstanding
@@ -68,6 +74,8 @@ Teaching Excellence in 2013-2014.
 
 Madhav V. Marathe
 -----------------
+.. figure:: http://spidal.org/Images/marathe.jpg
+   :alt: picture madhav marathe
 
 Marathe is an expert in interaction-based modeling and the simulation of
 large, complex biological, information, social, and technical systems.
@@ -84,6 +92,8 @@ socio-technical networks.
 
 David Crandall
 --------------
+.. figure:: http://spidal.org/crandall.jpg
+   :alt: picture david crandall
 
 David Crandall received a Ph.D. in computer science from Cornell
 University in 2008 and M.S. and B.S. degrees in computer science and
@@ -104,6 +114,8 @@ biomolecules, in particular membrane proteins, at the molecular level.
 
 Fusheng Wang
 ------------
+.. figure:: http://spidal.org/wang.jpg
+   :alt: picture fusheng wang
 
 Dr. Wang is an Assistant Professor in the Department of Computer Science
 and the Department of Biomedical Informatics at Stony Brook University.
@@ -123,6 +135,8 @@ systems.
 
 Jun Kong
 --------
+.. figure:: http://spidal.org/kong.jpg
+   :alt: picture Jun Kong
 
 Dr. Kong is an assistant professor at the Department of Biomedical
 Informatics, Emory University. His research interests include biomedical
@@ -134,16 +148,20 @@ University. He will collaborate with Dr. Fusheng Wang on the development
 of pathology image analysis algorithms for both 2D and 3D images, as
 well as co-advise graduate students on image algorithm development.
 
-Andrew Luckow
+Andre Luckow
 -------------
+.. figure:: http://spidal.org/luckow.jpg
+   :alt: picture andre luckow
 
-Andrew Luckow is a consultant in the SAGA Group. He studied Computer
+Andre Luckow is a consultant in the SAGA Group. He studied Computer
 Science at the Potsdam University where he obtained his doctorate degree
 in 2009. His main research interests are distributed systems, fault
 tolerance, computational sciences and programming languages.
 
 Ioannis Paraskevakos
 --------------------
+.. figure:: http://spidal.org/ioannis.jpg
+   :alt: picture ioannis paraskevakos
 
 Ioannis Paraskevakos is a first year PhD student at Rutgers University
 and a new member at RADICAL lab. Before his PhD studies, he acquired a
@@ -154,6 +172,8 @@ Semiconductor Company in Greece.
 
 John Paden
 ----------
+.. figure:: http://spidal.org/paden.jpg
+   :alt: picture john paden
 
 Dr. John Paden is an associate scientist at the Center for Remote
 Sensing of Ice Sheets (CReSIS) at the University of Kansas where he
@@ -165,6 +185,8 @@ data analysis and interpretation from these systems.
 
 Theresa Stumpf
 --------------
+.. figure:: http://spidal.org/stumpf.jpg
+   :alt: picture theresa stumpf
 
 Theresa Stumpf is a graduate student at the University of Kansas working
 on developing new ultra-broad bandwidth 3-D imaging algorithms and
@@ -174,6 +196,8 @@ Ice Sheets (CReSIS).
 
 Maleq Khan
 ----------
+.. figure:: http://spidal.org/Khan.jpg
+   :alt: picture maleq khan
 
 Maleq Khan is working as a Research Scientist at the Network Dynamics
 and Simulation Science Laboratory (NDSSL) at Virginia Bioinformatics
