@@ -81,3 +81,25 @@ high performance computers so that they scale to large networks; and
 (iv) it is hosted with web interfaces so that even non-computing experts
 without direct access to high performance computing resources can still
 reap the system benefits.
+
+WebPlotViz: Browser based Visualization tool
+--------------------------------------------
+
+- Indiana University
+- Code: https://github.com/DSC-SPIDAL/WebPViz
+- Online version: https://spidal-gw.dsc.soic.indiana.edu/
+
+WebPlotViz is a 3D data point browser that visualizes large volume of
+3-dimensional data as points in a virtual space on web browser and
+enable users to explore the virtual space interactively. Used together with
+dimension reduction algorithms such as MDS, WebPlotViz can help users to
+discover intrinsic structures of high-dimensional data and browse large
+volumes of data points interactively and efficiently in a virtual 3D space.
+
+WebPlotViz uses Three.js JavaScript library
+for rendering 3D plots in the browser. Three.js is built using
+WebGL technology, which allows GPU-accelerated graphics
+using JavaScript. It enables WebPlotViz to visualize 3D plots
+consisting of millions of data points seamlessly. WebPlotViz is
+designed to visualize sequences of time series 3D data frame
+by frame as a moving plot
