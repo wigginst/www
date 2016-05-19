@@ -1,6 +1,6 @@
 Meetings
 ========
-TODO: please check video links, they may not macth up
+TODO: please check video links, they may not match up
 
 The project members of SPIDAL conduct biweekly online meetings which are
 recorded by IU's video bridge and viewed with Pexip technology. Each
